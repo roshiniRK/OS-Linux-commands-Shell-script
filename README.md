@@ -42,23 +42,37 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
+![output1](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/816ba84c-1432-445b-bb0c-4cd96eb037ee)
 
 
 cat < file2
 ## OUTPUT
+![output2](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/8d601e3a-f1af-4be0-9ff0-dc1c43038bcd)
+
 
 
 # Comparing Files
 cmp file1 file2
+
 ## OUTPUT
+
+![output3](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/ce69f4a4-4783-4236-9cc6-8749c774a22a)
+
  
 comm file1 file2
+
+
  ## OUTPUT
+
+ 
+![output4](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/ba449de2-c738-4b74-8326-4e1cba3d17fd)
 
  
 diff file1 file2
 ## OUTPUT
+
+![output5](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/41340010-a767-4e22-b6e3-a60f87c500c9)
+
 
 
 #Filters
@@ -78,10 +92,16 @@ cat > file22
 1003 | Joe |  7000 | Developer
 ^d
 ```
+![output6](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/206cee93-79ae-4cb3-ba3b-88b0fdfa6af2)
+
+
+![output7](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/53e813b9-2c6f-4c0e-8c29-0c0c15a622ae)
 
 
 cut -c1-3 file11
 ## OUTPUT
+
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/603668d7-c969-4b41-a535-9b417b8066ef)
 
 
 
@@ -89,10 +109,16 @@ cut -c1-3 file11
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/f22b53b5-7cc0-4f77-a54c-df80895cc188)
+
+
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/44106369-dd68-4545-b404-78b3eaff11f2)
+
 
 
 cat < newfile 
@@ -108,27 +134,38 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/f62633c3-557c-44e8-9611-48106f44f43f)
+
 
 
 grep hello newfile 
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/164cf794-4ca7-44a8-9a52-ca7d46829fc6)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/d67b39bf-b4ca-4873-a09c-254506916b5e)
+
+
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/4905a36c-acc0-46de-b497-19a9c69dad1b)
+
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/adba7da1-8689-4fb8-a5c4-2345608bae21)
 
 
 
