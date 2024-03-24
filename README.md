@@ -177,6 +177,8 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/85a0384d-2298-4cb1-b426-85c090339e11)
+
 
 
 cat < newfile 
@@ -205,6 +207,7 @@ egrep -w 'Hello|hello' newfile
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+
 
 
 
