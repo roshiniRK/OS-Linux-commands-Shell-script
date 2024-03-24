@@ -202,60 +202,77 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/b2bb1f3d-dc9d-470c-bd12-e8336255de22)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/ad80aeea-523b-47a0-b96b-9d0237b70550)
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/1d4d1840-1589-471b-99ce-f3b6c3c1c749)
+
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/6927a2e0-68e5-463c-be03-2e2b7ac169e1)
+
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/0638f4c4-446a-46b1-a938-d4043c98a025)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/050e3e19-ad3e-4f05-affb-91c09f33a9a7)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/bae8210b-0065-4630-950a-5d703817fb76)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/0fcd4a22-f617-4d96-9dec-8e041b05a4cd)
+
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/f7d26d4d-5b7a-4056-bb79-a8a8080b27be)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/6be88e42-3e47-472b-97a5-bbfe2bb0d88d)
 
 
 egrep l{2} newfile
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/826d4bef-3d77-48e7-8772-80282e1d3828)
+
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/e5d0151d-9b87-4b92-a479-2ae8cb199fa2)
+
 
 
 cat > file23
@@ -274,79 +291,101 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/2cd2b6b9-97ce-4e5d-bc2b-4cbb7410974c)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/2e265a37-5f1f-4581-9e32-261c3aade8ac)
+
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/fd7037be-53f6-4066-b5f0-f0fc47d2086f)
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/6556dd32-a660-4fbe-ae6d-45dd3ec8580d)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/8ac2754c-3b62-4664-b2b2-6dfd93beff6d)
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/a1e065bc-d4e1-4a90-b7b0-a2513ed269d5)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/ef563956-336d-4fb6-b272-f9f3b20634ff)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/78d04f3a-1772-4beb-820d-ceaa70b62d9e)
 
 
 
 seq 10 
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/0c8d2e4f-8770-4cc1-8846-aeab00345655)
+
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/df6b6e9a-5baa-4dbe-8799-9884d3afb513)
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/c1e183f9-26b3-447a-8d2b-c827fd8e1b71)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/2c09d722-16fe-462f-9086-aa95e7011f92)
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/f423c79c-fda2-4c3e-88b1-807651d9445d)
+
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/299d2fa2-971b-4d45-85e9-9c3ab9cf0fd1)
+
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/26dd4f86-977f-4669-96f1-e59216815fc2)
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/454a76b3-7e87-46fa-8f73-803645034741)
+
 
 
 #Sorting File content
@@ -360,6 +399,8 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/6a5d1577-1522-40c1-a0c3-45fca7e64e2c)
+
 
 
 cat > file22
@@ -374,6 +415,7 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/6760eefd-782c-489e-bb84-5f7d4aa3c6a0)
 
 
 #Using tr command
