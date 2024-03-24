@@ -422,6 +422,8 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+ ![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/7110cd4c-6bf1-49bf-b188-16be57b35736)
+
 
 cat < urllist.txt
 ```
@@ -439,10 +441,13 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/4602b2b1-db9d-4dfe-bee7-5638253d4883)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+
+![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/c53ee026-fc3f-47d3-acbf-2e0fc1538e75)
 
 
 
