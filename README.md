@@ -449,60 +449,27 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 
 ![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/c53ee026-fc3f-47d3-acbf-2e0fc1538e75)
 
-
-
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
-
-mkdir backupdir
- 
-mv backup.tar backupdir
- 
-tar -tvf backup.tar
-## OUTPUT
-
-
-tar -xvf backup.tar
-## OUTPUT
-
-gzip backup.tar
-
-ls .gz
-## OUTPUT
- 
-gunzip backup.tar.gz
-## OUTPUT
-
- 
-# Shell Script
-```
-echo '#!/bin/sh' > my-script.sh
-echo 'echo Hello World‘; exit 0 >> my-script.sh
-```
-chmod 755 my-script.sh
-./my-script.sh
-## OUTPUT
-![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/fa11bda5-8a32-46b3-91c4-11edd4fabad4)
-
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/8c62851c-a964-43f2-86cc-74216fecdaf3)
 
  
 cat << stop > herecheck.txt
-```
+
 hello in this world
+
 i cant stop
+
 for this non stop movement
+
 stop
-```
+
+
 
 cat herecheck.txt
 ## OUTPUT
-
-![image](https://github.com/roshiniRK/OS-Linux-commands-Shell-script/assets/118956165/638c70fc-119a-4979-9ac5-f184e4ef7aef)
-
-
-
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/3eb2f341-b2a9-463b-9314-97f5a3971a76)
 
 cat < scriptest.sh 
 ```bash
@@ -540,23 +507,35 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/7a72e337-caed-4739-9e28-509e01204e2f)
+
 
  
 ls file1
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/55f8a5e3-ee68-4379-b4cb-89f0b70cdad7)
+
 
 echo $?
 ## OUTPUT 
+
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/6b25410f-3cc8-46d0-a6fc-2470ba999ee7)
+
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/56d4b458-b0e4-482c-8b94-477bfc4909c1)
+
  
 abcd
  
 echo $?
  ## OUTPUT
+ ![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/78d318cc-162d-467a-8f8e-6faaabfafc7f)
+
 
 
  
@@ -588,7 +567,9 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/2807a7c0-4f97-45e3-8247-881b1819e93a)
+
 
 
 
@@ -596,6 +577,8 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/b01bbe77-a8bc-4ddc-9ef4-e34016b7ce38)
+
 
 
 # check file ownership
@@ -623,6 +606,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/d8d7e35f-6048-4747-9e2a-17ca99eb6e20)
+
 
 # check if with file location
 cat>ifnested.sh 
@@ -669,6 +654,8 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/2f3299e4-60bb-4a32-a4c8-cd41aeb20ffd)
+
 
 
 
@@ -712,7 +699,9 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/6b71a0a1-b635-482c-a722-edf68c46ab6e)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -761,7 +750,9 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/ffd6724c-de7e-40da-b2e4-3938fa08ef90)
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -790,6 +781,8 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/9a93f4b6-6f73-486d-9ab6-ffb63e472ae4)
+
 
 
 # testing compound comparisons
@@ -806,6 +799,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/6b1f7621-a109-4248-b591-7a2ab00366b3)
+
 
 # using the case command
 cat >casecheck.sh 
@@ -825,6 +820,10 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+## Output
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/8f023608-005b-487a-b0a6-6097751bb34d)
+
+
  
 cat > whiletest
 ```bash
@@ -840,6 +839,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+## Output
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/c306fa58-6001-4716-98f3-9d3bf83e8660)
+
  
  
 cat untiltest.sh 
@@ -893,9 +895,12 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+## Output:
+cl![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/20039602-ccec-4711-9c2d-cc8da234e0b0)
+
  
 cat forin3.sh 
-```bash
+```
 \#!/bin/bash
 \# another example of how not to use the for command
 for test in I don\'t know if "this'll" work
@@ -904,6 +909,10 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+## Output
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/af7448a0-e65a-4fe1-9f3e-ae8217525c20)
+
+
  
 cat forin1.sh 
 ```bash
@@ -917,6 +926,10 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/2bb0af25-e1e4-4305-acec-9070685d1a00)
+
+
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -938,6 +951,8 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/5a16302c-3015-4eaf-b40f-95eaa2cfaf6d)
+
 
 
 cat forctype.sh 
@@ -952,6 +967,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/3dce7b3b-7f9d-4baf-bd8c-69a834677f23)
+
 
 cat forctype1.sh 
 ```bash
@@ -965,6 +982,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/68dace17-6331-4cbf-ab17-899d77d8ff35)
+
 
 cat fornested1.sh 
 ```bash
@@ -983,6 +1002,8 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+ ![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/53fc8213-be74-475b-8eb6-a3c13b67b2b6)
+
 
  
 cat forbreak.sh 
@@ -1000,6 +1021,8 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/082d2b62-cdb6-41da-a6d6-e5037411700b)
+
 
 $ chmod 755 forbreak.sh
  
@@ -1025,6 +1048,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/33c83ae9-444f-48e1-bbd7-1f8e25b187c4)
+
  
 cat exread.sh 
 ```bash
@@ -1039,6 +1064,8 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/85655ba5-fd37-4050-9655-9e2581647c22)
+
 
 
  cat exread1.sh
@@ -1050,11 +1077,13 @@ echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
 
-## OUTPUT
-
-
-
 $ ./exread1.sh 
+
+## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/c6985393-a346-43ba-b749-4e513e15457b)
+
+
+
  
 cat funcex.sh
 ```bash
@@ -1071,11 +1100,16 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
- ./funcex.sh 
 
+ ./funcex.sh 
+## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/60fbe45b-df80-4975-afb4-4707e0ff758e)
  
  ./funcex.sh 1 2
+ ## OUTPUT
+ ![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/0a9384e4-7b20-4491-ba85-0e78ac42eabd)
+
+ 
 
  
 cat argshift.sh
@@ -1088,8 +1122,12 @@ done
 ```
 $ chmod 777 argshift.sh
 
-## OUTPUT
 $ ./argshift.sh 1 2 3
+
+## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/591399c0-4ca7-46c4-b1da-0d5480a26f93)
+
+
  
  cat argshift1.sh
 ```bash
@@ -1104,9 +1142,14 @@ for (( i=0;i<$ELEMENTS;i++)); do
     echo ${args[${i}]} 
 done
 ```
-$ chmod 777 argshift.sh
+$ chmod 777 argshift1.sh
+
+$ ./argshift1.sh 1 2 3
+
 ## OUTPUT
-$ ./argshift.sh 1 2 3
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/7a228ebf-325f-4908-a6c0-181a22d72ca8)
+
+
  
 cat argshift.sh
 ```bash
@@ -1118,8 +1161,12 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
  ./argshift.sh 1 2 3
+ 
+## OUTPUT
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/bebbc456-66dd-4685-9722-92b03b56b478)
+
+
  
  
 cat > nc.awk
@@ -1151,6 +1198,9 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/58a676e2-9c98-4b6a-862a-7e3268689ef8)
+
+
  
 cat > palindrome.sh
 ```bash
@@ -1178,7 +1228,23 @@ else
 fi
 ```
 ## OUTPUT 
+![image](https://github.com/shoaib3136/OS-Linux-commands-Shell-script/assets/117919362/347b868d-86e8-4967-932b-e9dd7f152af2)
+
+
 
 
 # RESULT:
-The Commands are executed successfully.
+The Commands are executed successfully.
+
+
+
+
+
+
+
+
+
+
+
+
+
